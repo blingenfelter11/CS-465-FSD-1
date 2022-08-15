@@ -36,3 +36,4 @@ process.on('SIGTERM', () => {                               4
 });    
 
 require('./travlr');
+require('./user');
