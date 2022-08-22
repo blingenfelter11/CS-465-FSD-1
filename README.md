@@ -1,1 +1,7 @@
 # CS-465-FSD-1
+
+  For the development of this project, we iterated through multiple frontend frameworks. We started the project using Express HTML but due to its static nature we could not communicate with the database. To solve this issue we switched over from using Express HTML to using JavaScript and a single-page application framework. This switch allows us to communicate with a database by creating a dynamic website. Our dynamic site will communicate to the database we set up using MongoDB. Our MongoDB was setup using NoSQL to allow the flexibility to modify the schema and scale the database as needed. 
+  
+    JSON gives us the ability to create JavaScript objects that can be stored and called in different ways depending on what was requested from the frontend. An instance of refactoring code is when we created an array to hold the trip informationin a seperate object and changed out the hard coded functions that called the requested information.
+    
+    The API endpoints in the application are used to validate the user and authorize the user to alter the information in the database. The type of testing we do depends on the type of endpoint we are testing. The methods used in the endpoints that we tested are GET, POST, PUT, and DELETE. We test these methods by being sure that it behaves as intended when given instruction. We apply security measures to protect the endpoints from unauthorized access that could compromise the database. 
